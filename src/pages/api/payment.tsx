@@ -68,7 +68,7 @@ export default async function payment(req: NextApiRequest, res: NextApiResponse)
                     payer: {
                         entity_type: 'individual',
                         type: 'customer',
-                        email: 'michelasm3@gmail.com' //não confiar no callback do checkout este email. Passar diretamente o email para o banco de dados.
+                        email: 'teste@gmail.com' //não confiar no callback do checkout este email. Passar diretamente o email para o banco de dados.
                     },
                     date_of_expiration: addOneHour(),
                 };
